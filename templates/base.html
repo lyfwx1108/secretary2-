@@ -4,7 +4,7 @@
 </head>
 <body>
         {% if user.is_authenticated %}
-        <h1>我的隨身秘書 </h1>
+        <h1>-我的隨身秘書- </h1>
         <a href="/home">首頁</a>|<a href="/diary/add">寫日誌</a>|<a href="/money/add">記帳</a>|<a href="/logout">登出</a>
         {% endif %}
         {% block content %}
